@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1784092503170622}
+  m_IsPrefabParent: 1
+--- !u!1 &1784092503170622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4661787730820322}
+  - component: {fileID: 114841994140157128}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4661787730820322
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1784092503170622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.58195835, y: 1.2432902, z: -0.22581272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114841994140157128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1784092503170622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1ad83aef19b9747871e7b456e92f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ButtonPress
+    clip: {fileID: 8300000, guid: f70ef0d6d022b8c4393ba942e0f298ff, type: 3}
+    volume: 0.251
+    pitch: 0.587
+    randomVolume: 0.07
+    randomPitch: 0.19
+    loop: 0
+  - name: DeathVoice
+    clip: {fileID: 8300000, guid: db45afba92995c0438ac0a956c333079, type: 3}
+    volume: 0.323
+    pitch: 0.698
+    randomVolume: 0.181
+    randomPitch: 0.099
+    loop: 0
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 70643808dce4c4647b0c5328606016fc, type: 3}
+    volume: 0.323
+    pitch: 1
+    randomVolume: 0.137
+    randomPitch: 0.241
+    loop: 0
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 35e0477f6b93e3c46a55761c2fa42761, type: 3}
+    volume: 0.323
+    pitch: 0.736
+    randomVolume: 0.253
+    randomPitch: 0.12
+    loop: 0
+  - name: Grunt
+    clip: {fileID: 8300000, guid: cd06ea6d7cf48e744ab6a9bdda3cd0e1, type: 3}
+    volume: 0.313
+    pitch: 0.943
+    randomVolume: 0.152
+    randomPitch: 0.269
+    loop: 0
+  - name: RespawnCountdown
+    clip: {fileID: 8300000, guid: cc49dce745adf604e8a2208183e59eb8, type: 3}
+    volume: 0.361
+    pitch: 0.707
+    randomVolume: 0.269
+    randomPitch: 0.116
+    loop: 0
+  - name: DefaultShot
+    clip: {fileID: 8300000, guid: 8c5e55b5d6019664abd411ea7abbf6ef, type: 3}
+    volume: 0.443
+    pitch: 0.674
+    randomVolume: 0.202
+    randomPitch: 0.104
+    loop: 0
+  - name: Spawn
+    clip: {fileID: 8300000, guid: acfdcd17ebf80e5439f2610fc035d500, type: 3}
+    volume: 0.327
+    pitch: 0.702
+    randomVolume: 0.26
+    randomPitch: 0.166
+    loop: 0
+  - name: Music
+    clip: {fileID: 8300000, guid: 03518c562cf273d4eb6f649a3216b520, type: 3}
+    volume: 0.629
+    pitch: 0.702
+    randomVolume: 0.26
+    randomPitch: 0.166
+    loop: 1
+  - name: NoMoney
+    clip: {fileID: 8300000, guid: 77d1da943e8a41d41bd497f452fdf992, type: 3}
+    volume: 0.455
+    pitch: 0.702
+    randomVolume: 0.26
+    randomPitch: 0.166
+    loop: 0
+  - name: Money
+    clip: {fileID: 8300000, guid: 0fd421fc88f8b464fbc0465f452e6716, type: 3}
+    volume: 0.715
+    pitch: 0.86
+    randomVolume: 0.26
+    randomPitch: 0.166
+    loop: 0
+  - name: Reloading
+    clip: {fileID: 8300000, guid: 4497ddaf5b146a54b92ae75370ff3bdd, type: 3}
+    volume: 0.874
+    pitch: 0.927
+    randomVolume: 0.393
+    randomPitch: 0.236
+    loop: 0
